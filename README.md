@@ -12,7 +12,8 @@ Unit tests must be provided
 
 **Dataset:**
 
-WITH order_data as (
+WITH order_data as (  
+
 SELECT 1 as deliveryStep, 1 as Customer, CAST("2020-01-01T12:00:00" AS DATETIME) as timestamp
 
 union all 
