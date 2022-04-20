@@ -63,8 +63,10 @@ def ingest(record):
 - where record is a dictionary as follows:
 {'Delivery Step':1, 'Customer': 1, 'Timestamp':2020-01-01T12:00:00}
 
+**Question:**
+
 Implement the ingest function to output the average duration of a successful delivery each time a record is delivered to the function.
-**Expectations:**
+
 1. You are allowed to use stateful variables to store information between calls of the
 ingest function.
 2. How much memory will the function need for this dataset?
