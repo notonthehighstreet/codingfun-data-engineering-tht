@@ -11,6 +11,14 @@ The code must be written in Python 3.
 You may use any frameworks or libraries to complete this task, excluding data analysis libraries like Pandas.
 Unit tests must be provided
 
+Let's imagine that you are working for a e-commerce company that delivers gifts from warehouse/stores to individuals.
+
+We have a table of raw/unprocessed data coming from our app that stores the information concerning a delivery. In this unprocessed table, a delivery is made of 4 steps:
+1. Order placed
+2. Driver accepted order
+3. Food is picked up at restaurant
+4. Food is delivered to customer
+
 **Dataset:**
 
 WITH order_data as (  
