@@ -2,7 +2,7 @@
 
 This is a benchmark test to ensure that data engineers, Python developers can show a good understanding of the fundamentals of reading, coding and delivering to a timeframe.
 
-Rules:
+**Rules:**
 A link to a public Git repository with your final solution must be provided within 48 hours of receipt of the test. Guidelines
 
 To help understand how you approach the problem, we will assess your use of source control and how you build to the final solution, checking what is committed along each step (hint: frequent push)
@@ -10,10 +10,10 @@ The code must be written in Python 3.
 You may use any frameworks or libraries to complete this task, excluding data analysis libraries like Pandas.
 Unit tests must be provided
 
-Dataset:
+**Dataset:**
 
 WITH order_data as (
-SELECT 1 as deliveryStep, 1 as Customer, CAST("2020-01-01T12:00:00" AS DATETIME) as timestamp
+SELECT 1 as deliveryStep, 1 as Customer, CAST("2020-01-01T12:00:00" AS DATETIME) as timestamp      
 union all
 SELECT 2, 1, CAST("2022-01-01T12:05:00" AS DATETIME)
 union all
@@ -44,7 +44,7 @@ Expectations:
 ingest function.
 2. How much memory will the function need for this dataset?
 
-Assessment
+**Assessment:**
 
 Your code will be reviewed and assessed according to the following:
 
