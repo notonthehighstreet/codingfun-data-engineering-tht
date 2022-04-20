@@ -3,8 +3,9 @@
 This is a benchmark test to ensure that data engineers, Python developers can show a good understanding of the fundamentals of reading, coding and delivering to a timeframe.
 
 **Rules:**
-A link to a public Git repository with your final solution must be provided within 48 hours of receipt of the test. Guidelines
+A link to a public Git repository with your final solution must be provided within 48 hours of receipt of the test. 
 
+**Guidelines**
 To help understand how you approach the problem, we will assess your use of source control and how you build to the final solution, checking what is committed along each step (hint: frequent push)
 The code must be written in Python 3.
 You may use any frameworks or libraries to complete this task, excluding data analysis libraries like Pandas.
@@ -55,7 +56,7 @@ def ingest(record):
 {'Delivery Step':1, 'Customer': 1, 'Timestamp':2020-01-01T12:00:00}
 
 Implement the ingest function to output the average duration of a successful delivery each time a record is delivered to the function.
-Expectations:
+**Expectations:**
 1. You are allowed to use stateful variables to store information between calls of the
 ingest function.
 2. How much memory will the function need for this dataset?
